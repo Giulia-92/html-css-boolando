@@ -10,15 +10,87 @@ main{
 }
 .row{
     display: inline;
+    width: calc((100%/3) - 10px);
 }
 
 .photo{ 
     display:inline-block;
     height:400px;
     width: calc(60% / 3);
-    border: 3px solid grey;
-    object-position: center;
+    background-color: grey;
+    background-image: url(./img/1.webp);
+    background-size: cover;
+    position: relative;
 }
-.photo{
-
+.photo:hover{
+    background-image: url(./img/1b.webp); 
+}
+.photo1:hover{
+    background-image: url(./img/2b.webp); 
+}
+.photo2:hover{
+    background-image: url(./img/3b.webp); 
+}
+.photo3:hover{
+    background-image: url(./img/4b.webp); 
+}
+.photo4:hover{
+    background-image: url(./img/5b.webp); 
+}
+.photo5:hover{
+    background-image: url(./img/6b.webp); 
+}
+.photo1{ 
+    display:inline-block;
+    height:400px;
+    width: calc(60% / 3);
+    background-color: grey;
+    background-image: url(./img/2.webp);
+    background-size: cover;
+    position: relative;
+}
+.photo2{ 
+    display:inline-block;
+    height:400px;
+    width: calc(60% / 3);
+    background-color: grey;
+    background-image: url(./img/3.webp);
+    background-size: cover;
+    position: relative;
+}
+.photo3{ 
+    display:inline-block;
+    height:400px;
+    width: calc((100% / 3) - 10px);
+    background-color: grey;
+    background-image: url(./img/4.webp);
+    background-size: cover;
+    position: relative;
+}
+.photo4{ 
+    display:inline-block;
+    height:400px;
+    width: calc(60% / 3);
+    background-color: grey;
+    background-image: url(./img/5.webp);
+    background-size: cover;
+    position: relative;
+}
+.photo5{ 
+    display:inline-block;
+    height:400px;
+    width: calc(60% / 3);
+    background-color: grey;
+    background-image: url(./img/6.webp);
+    background-size: cover;
+    position: relative;
+}
+.heart{
+    margin-right:8px;
+    margin-top: 3px;
+    height:20px;
+    width: 20px;
+    position: absolute;
+    left: 93%;
+    background-color: white;
 }
