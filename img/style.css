@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: inline;
+}
+
+.photo{ 
+    display:inline-block;
+    height:400px;
+    width: calc(60% / 3);
+    border: 3px solid grey;
+    object-position: center;
+}
+.photo{
+
+}
