@@ -61,7 +61,7 @@ main{
 .photo3{ 
     display:inline-block;
     height:400px;
-    width: calc((100% / 3) - 10px);
+    width: calc((70% / 3) - 10px);
     background-color: grey;
     background-image: url(./img/4.webp);
     background-size: cover;
@@ -93,4 +93,23 @@ main{
     position: absolute;
     left: 93%;
     background-color: white;
+}
+.sostenibilità{
+    height:20px;
+    width: 100px;
+    position: absolute;
+    background-color: rgba(93, 235, 57, 0.973);
+    color: white;
+    top: 90%;
+    left: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sconti{
+    height:20px;
+    width: 60px;
+    position: absolute;
+    background-color: rgba(240, 37, 10, 0.842);
+    color: white;
+    top: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
